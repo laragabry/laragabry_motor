@@ -1,0 +1,36 @@
+{
+  "zones": {
+    "Z_E1":  { "label": "Entrada Principal",  "type": "entrance" },
+    "Z_E2":  { "label": "Entrada Secundária", "type": "entrance" },
+    "Z_X1":  { "label": "Saída Emergência",   "type": "exit" },
+    "Z_CK":  { "label": "Caixas",             "type": "checkout" },
+    "Z_C1":  { "label": "Corredor Sul",        "type": "aisle" },
+    "Z_C2":  { "label": "Corredor Principal",  "type": "aisle" },
+    "Z_C3":  { "label": "Corredor Norte",      "type": "aisle" },
+    "Z_S1":  { "label": "Limpeza e Casa",      "type": "shelf_zone" },
+    "Z_S2":  { "label": "Jardim e Bricolage",  "type": "shelf_zone" },
+    "Z_S3":  { "label": "Higiene Pessoal",     "type": "shelf_zone" },
+    "Z_S4":  { "label": "Beleza e Saúde",      "type": "shelf_zone" },
+    "Z_S5":  { "label": "Promoções",           "type": "promotion" },
+    "Z_S6":  { "label": "Têxtil",              "type": "shelf_zone" },
+    "Z_S7":  { "label": "Eletrónica e Media",  "type": "shelf_zone" },
+    "Z_N1":  { "label": "Mercearia Oeste",     "type": "shelf_zone" },
+    "Z_N2":  { "label": "Mercearia Este",      "type": "shelf_zone" },
+    "Z_N3":  { "label": "Bebidas",             "type": "shelf_zone" },
+    "Z_N4":  { "label": "Snacks e Cereais",    "type": "shelf_zone" },
+    "Z_N5":  { "label": "Frescos",             "type": "shelf_zone" },
+    "Z_N6":  { "label": "Lacticínios e Frio",  "type": "shelf_zone" },
+    "Z_N7":  { "label": "Congelados",          "type": "shelf_zone" },
+    "Z_N8":  { "label": "Talho e Peixaria",    "type": "shelf_zone" },
+    "Z_N9":  { "label": "Padaria",             "type": "shelf_zone" },
+    "Z_N10": { "label": "Frutas e Legumes",    "type": "shelf_zone" }
+  },
+  "zone_types": [
+    "entrance",
+    "exit",
+    "checkout",
+    "aisle",
+    "shelf_zone",
+    "promotion"
+  ]
+}
