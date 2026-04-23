@@ -59,14 +59,14 @@ def merge_sort(arr, key=None, reverse=False):
     sorted_arr = _sort(arr)
 
     return sorted_arr, cmp_count[0]
-def benchmarksorts(arr, key=None, reverse=False):
+def benchmark_sorts(arr, key=None, reverse=False):
     import time
     t0 = time.time()
-    , cmp_b = bubble_sort(arr, key=key, reverse=reverse)
-    tbubble = time.time() - t0
+    arr_b, cmp_b = bubble_sort(arr, key=key, reverse=reverse) 
+    t_bubble = time.time() - t0
 
     t0 = time.time()
-    , cmp_m = merge_sort(arr, key=key, reverse=reverse)
+    arr_m, cmp_m = merge_sort(arr, key=key, reverse=reverse)
     t_merge = time.time() - t0
 
     return {
